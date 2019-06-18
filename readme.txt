@@ -1,34 +1,36 @@
-Schritt1: „mainwindow.py“ ausführen / Alternativ Monogrammrecognition.exe ausführen
+Install necessary packages (easiest way via Pip-installer => "pip install <package>==<versionumber>") :
+OpenCV 3.3.0
+Numpy 1.15.2
+PyQt5
+PIL 5.3.0
+Wand 0.5.1 (only for deletetransparency.py and convertSVGtoPNG.py)
 
-Schritt2: Monogramm-Verzeichnis oder Pickle-Datei(dict.pickle) auswählen. Anmerkung: falls ein Verzeichnis gewählt wird, wird die pickle-Datei in selben Verzeichnis gespeichert in dem die Anwendung gestartet wurde.
 
-Schritt3: Inputmonogramm auswählen.
+Step 1: Run "mainwindow.py"
 
-Optional: Ratio Test / Skeletttierung Aktivieren.
+Step 2: Select monogram directory or pickle file(dict.pickle). Note: If a directory is selected, the pickle file is stored in the same directory where the application was started.
 
-Schritt4: Auswerten klicken.
+Step 3: Select input monogram.
+
+Optional: Enable tick-boxes : Ratio Test / Skeletonization.
+
+Step 4: Click evaluate("Ausführen").
+
+
 
 =============================================================================
-Transparenz löschen und ins PNG-Format konvertieren:
+Delete transparency and convert to PNG format:
 
-"deletetransparency.py" ausführen.
+execute "deletetransparency.py".
 
-Schritt1: Inputordner mit Bildern auswählen.
+Step 1: Select input folder with pictures.
 
-Schritt2: Gewünschten Outputordner wählen.
-
+Step 2: Select desired output folder.
 =============================================================================
-SVG zu PNG Konvertieren:
+SVG to PNG Convert:
 
-"convertSVGtoPNG.py" ausführen.
+execute "convertSVGtoPNG.py".
 
-Schritt1: Inputordner mit SVG-Bildern auswählen.
+Step 1: Select input folder with SVG images.
 
-Schritt2: Gewünschten Outputordner wählen.
-
-
-Monogrammrecognition.exe ist unter:
-
-https://drive.google.com/open?id=1-4kF-Xkz8V0HuG2uVd2psRR99_YiQ-3E
-
-zu finden.
+Step 2: Select desired output folder.
